@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/webcamjs/1.0.26/webcam.js"></script>
+    <title>selfie de voz</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Aplicacion de voz para tomar selfies</h1>  
+  <hr>
+  <h4>Haz click en permitir cuando aparezca la ventana emergente, despues de dar una orden de voz</h4>
+  <div>
+    <h2>Di"toma una selfie"</h2>
+    <label for="">Tu salida de voz:</label>
+    <textarea readonly="true" name="" id="textbox" cols="30" rows="10"></textarea>
+    <button class="btn" onclick="iniciar">iniciar</button>
+    <h6>Haz click en el boton iniciar</h6>
+    <label for="">Tu camara:</label>
+    <div id="camara"></div>
+    <label for="">Tu selfie aparecera aqui:</label>
+    <div id="selfie"></div>
+  </div>
+  
+  <script src="main.js"></script>
+</body>
+</html>
